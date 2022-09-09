@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+    /* TIPOGRAFIA */
+    font-size: 62.5%;
+    --h1-color: #FFFFFF;
+    --h2-color: #4A4E69;
+    --h1-BGcolor: #CBC0D3;
+    --h2-BGcolor: #FEEAFA;
+    --p-color: #23053A;
+
+    /* CORES */
+    --BGcolor-body: #EFF1FF;
+    --BGcolor-header: #8E9AAF;
+}
+
+body {
+    background-color: var(--BGcolor-body);
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    background-color: var(--BGcolor-header);
+    padding: 3.2rem 0;
+}
+
+header img {
+    margin-bottom: 3.2rem;
+}
+
+header h1 {
+    text-transform: uppercase;
+    font-size: 4rem;
+    line-height: 3.4rem;
+    letter-spacing: .2rem;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    background-color: var(--h1-BGcolor);
+    padding: .8rem 0;
+    color: var(--h1-color);
+    font-family: 'Staatliches', cursive;
+}
+
+/* MAIN */
+main {
+    max-width: 32rem;
+    margin: 1.4rem auto 6rem auto;
+}
+
+/* MAIN P */
+main p {
+    color: var(--p-color);
+    font-size: 2rem;
+    line-height: 2.8rem;
+    text-align: center;
+    margin-bottom: 6rem;
+    font-family: 'Palanquin', sans-serif;
+}
+
+/* CARD CONTAINER */
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+/* CARD */
+.card {
+    position: relative;
+    border-radius: 2rem;
+}
+
+/*  CARD SIZE */
+.card-size1 {
+    width: 32rem;
+    height: 25rem;
+}
+
+.card-size2 {
+    width: 32rem;
+    height: 45rem;
+}
+
+/* CARD HEADING */
+.card h2 {
+    position: absolute;
+    color: var(--h2-color);
+    background-color: var(--h2-BGcolor);
+    font-size: 2rem;
+    line-height: 3.4rem;
+    padding: 0 2.3rem;
+    border-radius: 2rem;
+    top: 1.6rem;
+    right: 1.6rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    font-family: 'Staatliches', cursive;
+}
+
+/* FOTOS PRODUTOS */
+.card-bg1 {
+    background-color: black;
+    background-image: url(./images/sorvete1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-bg2 {
+    background-color: black;
+    background-image: url(./images/sorvete2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-bg3 {
+    background-color: black;
+    background-image: url(./images/sorvete3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-bg4 {
+    background-color: black;
+    background-image: url(./images/sorvete4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
